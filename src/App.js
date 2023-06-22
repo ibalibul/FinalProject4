@@ -3,6 +3,7 @@ import 'bootstrap';
 import Header from './components/organisme/Header';
 import Button from './components/Button/Button';
 import Home from './Pages/Home/Home';
+import Footer from './components/organisme/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <h1>Hello Word!!!</h1>
       <Home />
       <Button />
+      <Footer />
     </div>
   );
 }
